@@ -6,7 +6,7 @@ using JacksonVeroneze.NET.TemplateClassLib.Models;
 
 namespace JacksonVeroneze.NET.TemplateClassLib.Services;
 
-internal class TemplateService : ITemplateService
+public class TemplateService : ITemplateService
 {
     private readonly ILogger<TemplateService> _logger;
 
