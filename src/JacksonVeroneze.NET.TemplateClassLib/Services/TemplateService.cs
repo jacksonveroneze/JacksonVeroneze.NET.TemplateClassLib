@@ -30,6 +30,9 @@ public class TemplateService : ITemplateService
                 Value = "Value"
             };
 
+            _logger.LogEvent(nameof(TemplateService),
+                nameof(GetByIdAsync));
+
             return Task.FromResult(entity.ToModel())!;
         }
         catch (Exception ex)

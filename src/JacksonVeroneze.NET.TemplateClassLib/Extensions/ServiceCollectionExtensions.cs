@@ -13,9 +13,8 @@ public static class ServiceCollectionExtensions
         this IServiceCollection services,
         IConfiguration config)
     {
-        services.AddScoped<ITemplateService, TemplateService>();
-
-        return services;
+        return services
+            .InternalServiceCollection();
     }
 
     public static IServiceCollection AddTemplateClassLibService(
@@ -28,6 +27,13 @@ public static class ServiceCollectionExtensions
 
         config.Invoke(conf);
 
+        return services
+            .InternalServiceCollection();
+    }
+
+    private static IServiceCollection InternalServiceCollection(
+        this IServiceCollection services)
+    {
         services.AddScoped<ITemplateService, TemplateService>();
 
         return services;

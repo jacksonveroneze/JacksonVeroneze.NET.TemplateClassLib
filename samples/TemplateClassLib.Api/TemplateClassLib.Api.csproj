@@ -7,12 +7,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\JacksonVeroneze.NET.TemplateClassLib\JacksonVeroneze.NET.TemplateClassLib.csproj" />
+        <ProjectReference Include="..\..\src\JacksonVeroneze.NET.TemplateClassLib\JacksonVeroneze.NET.TemplateClassLib.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageVersion Update="Microsoft.AspNetCore.OpenApi" Version="7.0.7"/>
     </ItemGroup>
 
 </Project>

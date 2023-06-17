@@ -1,24 +1,27 @@
 <Project>
-  <ItemGroup>
-    <PackageVersion Include="FluentAssertions.Analyzers" Version="0.17.2" />
-    <PackageVersion Include="xunit.analyzers" Version="1.1.0" />
-    <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.1" />
-    <PackageVersion Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.6.40">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageVersion>
-    <PackageVersion Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" />
-    <PackageVersion Include="Roslynator.Analyzers" Version="4.3.0" />
-    <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.3.0" />
-    <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.3.0" />
-    <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.2.0.71021">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageVersion>
-    <PackageVersion Include="Meziantou.Analyzer" Version="2.0.57">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageVersion>
-    <PackageVersion Include="SecurityCodeScan.VS2019" Version="5.6.7" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageVersion Include="FluentAssertions.Analyzers" Version="0.17.2"/>
+        <PackageVersion Include="xunit.analyzers" Version="1.1.0"/>
+        <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageVersion>
+        <PackageVersion Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.6.40">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageVersion>
+        <PackageVersion Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4"/>
+        <PackageVersion Include="Roslynator.Analyzers" Version="4.3.0"/>
+        <PackageVersion Include="Roslynator.CodeAnalysis.Analyzers" Version="4.3.0"/>
+        <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.3.0"/>
+        <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.3.0.71466">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageVersion>
+        <PackageVersion Include="Meziantou.Analyzer" Version="2.0.61">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageVersion>
+        <PackageVersion Include="SecurityCodeScan.VS2019" Version="5.6.7"/>
+    </ItemGroup>
 </Project>

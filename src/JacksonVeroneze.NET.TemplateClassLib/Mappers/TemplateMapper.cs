@@ -1,3 +1,4 @@
+using JacksonVeroneze.NET.TemplateClassLib.Entities;
 using JacksonVeroneze.NET.TemplateClassLib.Models;
 
 namespace JacksonVeroneze.NET.TemplateClassLib.Mappers;
@@ -5,9 +6,9 @@ namespace JacksonVeroneze.NET.TemplateClassLib.Mappers;
 internal static class TemplateMapper
 {
     internal static TemplateModel ToModel(
-        this Entities.TemplateEntity entity)
+        this TemplateEntity entity)
     {
-        return new TemplateModel()
+        return new TemplateModel
         {
             Key = entity.Key,
             Value = entity.Value
