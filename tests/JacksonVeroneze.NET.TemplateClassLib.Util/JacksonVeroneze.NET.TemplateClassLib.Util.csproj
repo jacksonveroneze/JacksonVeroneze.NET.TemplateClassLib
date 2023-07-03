@@ -10,7 +10,7 @@
     <ItemGroup>
         <PackageReference Include="Bogus" Version="34.0.2"/>
         <PackageReference Include="Moq" Version="4.18.4"/>
-        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1"/>
     </ItemGroup>
 
     <ItemGroup>
@@ -21,10 +21,6 @@
 
     <ItemGroup>
         <ProjectReference Include="..\..\src\JacksonVeroneze.NET.TemplateClassLib\JacksonVeroneze.NET.TemplateClassLib.csproj"/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageVersion Update="Microsoft.Extensions.Logging.Abstractions" Version="7.0.1"/>
     </ItemGroup>
 
 </Project>
